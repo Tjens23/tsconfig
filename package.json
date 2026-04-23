@@ -1,15 +1,12 @@
 {
-  "name": "test",
+  "name": "@nothinghere/tsconfig",
   "version": "1.0.0",
-  "description": "",
+  "description": "package that generates a tsconfig file based on user input",
   "main": "index.js",
-  "scripts": {
-    "test": "tsc --noEmit && tsx src/index.ts"
-  },
+  "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "nothinghere",
   "license": "ISC",
-  "packageManager": "pnpm@10.29.1",
   "dependencies": {
     "@inquirer/input": "^5.0.12",
     "@inquirer/prompts": "^8.4.2",
