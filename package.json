@@ -2,6 +2,7 @@
   "name": "@nothinghere/tsconfig",
   "version": "1.0.1",
   "description": "package that generates a tsconfig file based on user input",
+  "type": "module",
   "main": "dist/index.js",
   "bin": {
     "tsconfig": "dist/index.js"

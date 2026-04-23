@@ -1,4 +1,4 @@
-import type { ProjectType } from "./types";
+import type { ProjectType } from "./types.js";
 
 export const EXTRA_CHOICES = [
   { name: "Declaration files (.d.ts)", value: "declaration" },

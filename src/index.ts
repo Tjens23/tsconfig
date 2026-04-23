@@ -12,9 +12,9 @@ import {
   askExtraExcludes,
   askExtras,
   askOverwrite,
-} from "./prompts";
-import { buildTsconfig } from "./build";
-import { writeTsconfig } from "./write";
+} from "./prompts.js";
+import { buildTsconfig } from "./build.js";
+import { writeTsconfig } from "./write.js";
 
 async function main(): Promise<void> {
   console.log("\n  tsconfig generator  \n");

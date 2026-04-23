@@ -6,7 +6,7 @@ import type {
   ProjectType,
   StrictLevel,
   Target,
-} from "./types";
+} from "./types.js";
 
 function deriveLib(projectType: ProjectType, target: Target): string[] {
   const hasDOM = projectType === "browser" || projectType === "react";

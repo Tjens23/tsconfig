@@ -1,13 +1,13 @@
 import { select, checkbox, confirm, input } from "@inquirer/prompts";
 import checkboxPlus from "inquirer-checkbox-plus-plus";
-import { EXTRA_CHOICES, defaultExtras } from "./choices";
+import { EXTRA_CHOICES, defaultExtras } from "./choices.js";
 import type {
   JsxMode,
   ModuleKind,
   ProjectType,
   StrictLevel,
   Target,
-} from "./types";
+} from "./types.js";
 
 export async function askProjectType(): Promise<ProjectType> {
   return select<ProjectType>({
